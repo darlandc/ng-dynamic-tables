@@ -8,7 +8,6 @@ import { MatTableDataSource } from '@angular/material/table';
 })
 
 export class TableComponent implements OnInit {
-  profile: any;
   tableDataSrc: any;
   tableCols: string[] = ['name', 'role', 'skillset'];
   tableData: {}[] = [
