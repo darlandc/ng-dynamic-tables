@@ -14,6 +14,16 @@
     <mat-cell *matCellDef="let profile">{{ profile.skillset }}</mat-cell>
   </ng-container>
 
+  <ng-container matColumnDef="color">
+    <mat-header-cell *matHeaderCellDef>Color:</mat-header-cell>
+    <mat-cell *matCellDef="let profile">{{ profile.color }}</mat-cell>
+  </ng-container>
+
+  <ng-container matColumnDef="humor">
+    <mat-header-cell *matHeaderCellDef>Humor:</mat-header-cell>
+    <mat-cell *matCellDef="let profile">{{ profile.humor }}</mat-cell>
+  </ng-container>
+
   <mat-header-row *matHeaderRowDef="tableCols"></mat-header-row>
   <mat-row *matRowDef="let row; columns: tableCols"></mat-row>
 </table>

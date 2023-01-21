@@ -9,8 +9,6 @@ import { Component, OnInit } from '@angular/core';
 export class WrapperComponent implements OnInit {
   constructor(){}
 
-  ngOnInit(): void {
-    throw new Error('Method not implemented.');
-  }
+  ngOnInit(): void {}
 
 }
